@@ -1,4 +1,4 @@
-# xmrig
+# XMRig
 
 > XMRig Miner Tests
 
