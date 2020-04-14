@@ -5,6 +5,7 @@ PASSWORD="x"
 
 PRIORITY=5  # set process priority (0 idle, 2 normal to 5 highest)
 DONATE=0
+BACKGROUND=true
 
 WORKER=$(date "+%Y%m%d%H%M%S")
 
@@ -23,7 +24,7 @@ cat>"config.json"<< EOF
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": ${BACKGROUND},
     "colors": true,
     "randomx": {
         "init": -1,
