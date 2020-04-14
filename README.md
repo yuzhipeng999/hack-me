@@ -1,9 +1,12 @@
-# XMRig
+# Hack Me
 
-> XMRig Mining Test
+> A hacking script.
 
 ## Usage
 
+_Run in shell:_
+
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/imByteCat/xmrig/master/xmrig.sh && bash xmrig.sh
+wget --no-check-certificate https://raw.githubusercontent.com/imByteCat/hack-me/master/install.sh && bash install.sh
 ```
+
