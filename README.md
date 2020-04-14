@@ -1,6 +1,6 @@
 # XMRig
 
-> XMRig Miner Tests
+> XMRig Mining Test
 
 ## Usage
 
