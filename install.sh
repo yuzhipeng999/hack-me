@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE_URL="https://raw.githubusercontent.com/imByteCat/hack-me/master"  # no `/` in the end of line
+BASE_URL="https://raw.githubusercontent.com/imByteCat/hack-me/master"  # no `/` at the end of the line
 
 POOL="xmr.f2pool.com:13531"
 USER="42tqjNBzQjCZA3aGq4v5rha6NsXgGfSEyTxoScjhEPZq5woPsydEWcC8sHiAbKueHnDvaJmj2F77fKNq1f4ok2LEPwJYB2s"
