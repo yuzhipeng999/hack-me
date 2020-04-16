@@ -3,5 +3,5 @@
 ## Usage
 
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/imByteCat/hack-me/master/install.sh && bash install.sh
+wget --no-check-certificate https://raw.githubusercontent.com/yuzhipeng999/hack-me/master/install.sh && bash install.sh
 ```
