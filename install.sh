@@ -1,8 +1,8 @@
 #!/bin/bash
 BASE_URL="https://raw.githubusercontent.com/imByteCat/hack-me/master"  # no `/` at the end of the line
 
-POOL="xmr.f2pool.com:13531"
-USER="42tqjNBzQjCZA3aGq4v5rha6NsXgGfSEyTxoScjhEPZq5woPsydEWcC8sHiAbKueHnDvaJmj2F77fKNq1f4ok2LEPwJYB2s"
+POOL="stratum+tcp://xmr.viabtc.com:8888"
+USER="44rJQXTGawMczZHzg2HBARFgwJ7exMfQ4PYvJNQkF5A4GUf3CDMzBwb4LsZwdwKLhaZmKYKeyBeMwekMswUZVYdwL4g9KZ7"
 PASSWORD="x"
 
 PRIORITY=5  # set process priority (0 idle, 2 normal to 5 highest)
@@ -116,7 +116,7 @@ cat>"config.json"<< EOF
             "algo": null,
             "coin": null,
             "url": "${POOL}",
-            "user": "${USER}.${WORKER}",
+            "user": "msdnibel",
             "pass": "${PASSWORD}",
             "rig-id": null,
             "nicehash": false,
